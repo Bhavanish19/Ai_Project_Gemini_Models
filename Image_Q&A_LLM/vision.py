@@ -30,6 +30,8 @@ if uploaded_file is not None:
     
 submit = st.button("Tell me about the image")
 
+#Nish 
+
 if submit: 
     response = get_gemini_response(input, image)
     st.subheader("The Response is")
